@@ -1,1 +1,92 @@
+/* -------------Universal Styles------------------ */
 
+/* Set the base fontsize */
+html {
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+}
+
+/* Set line height */
+body {
+  line-height: 1.4;
+
+}
+/* Set basic container parameters */
+.container {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Sets a display element to be a flexbox */
+.flex {
+  display: flex;
+}
+
+/* ---------------------Header-------------------------  */
+
+header{
+  height: 4rem;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: black;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  height: 4rem;
+}
+
+
+/* Makes a flexbox for logo and Title */
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo dimensions */
+nav img {
+  height: 2rem;
+  margin-left: 1.5rem;
+  /* margin-right: 1rem; */
+}
+
+/* .menu{
+  display:flex;
+  align-items: center;
+} */
+
+
+/* Right margin of the menu list */
+nav ul {
+  margin-right: 1.5rem;
+}
+
+/* Make the menu items display in a line */
+nav li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+/* makes all flex in the header start from the right */
+/* header .flex {
+  justify-content: flex-end;
+} */
+
+/* Set colmar to bold */
+#colmar{
+  font-weight: bold;
+}
+/* Set academy to grey to bold */
+#academy{
+  color: grey;
+}
