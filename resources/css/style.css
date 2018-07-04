@@ -90,3 +90,44 @@ nav li {
 #academy{
   color: grey;
 }
+
+/* --------------------Banner -------------------------  */
+
+.banner{
+  background-color: yellow;
+  height:24rem;
+
+}
+
+/* --------------------Practicising -------------------------  */
+
+.practice{
+  background-color: green;
+  height:24rem;
+
+}
+
+
+/* --------------------Learning -------------------------  */
+
+.learn{
+  background-color: lightblue;
+  height:36rem;
+
+}
+
+/* --------------------Exhibits -------------------------  */
+
+.exhibit{
+  background-color: grey;
+  height:24rem;
+
+}
+
+/* --------------------Footer -------------------------  */
+
+.footer{
+  background-color: pink;
+  height:6rem;
+
+}
