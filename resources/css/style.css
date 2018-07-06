@@ -16,8 +16,9 @@ h1,h2 {
 /* Set basic container parameters */
 .container {
   display: flex;
+  /* align-items: center;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 /* Sets a display element to be a flexbox */
@@ -28,7 +29,7 @@ h1,h2 {
 /* ---------------------Header-------------------------  */
 
 header{
-  height: 4rem;
+  height:4rem;
   /* background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
@@ -55,7 +56,7 @@ nav div {
 
 /* Logo dimensions */
 nav img {
-  height: 2rem;
+  height: 3rem;
   margin-left: 1.5rem;
   /* margin-right: 1rem; */
 }
@@ -85,43 +86,54 @@ nav li {
 /* Set colmar to bold */
 #colmar{
   font-weight: bold;
+  font-size: 2rem;
 }
 /* Set academy to grey to bold */
 #academy{
   color: grey;
+  font-size: 2rem;
 }
 
 /* --------------------Banner -------------------------  */
 
+.part1 {
+  padding-top: 32px;
+}
+
 .banner{
+  display:flex;
   background-color: lightgrey;
   align-items: center;
+
+
+  /* align-items: center; */
   /* height:24rem; */
 
 }
 
 .books{
-
   width: 60%;
   margin: 32px 24px;
-  align-items: left;
+  /* align-items: left; */
 }
 .books img{
   max-width:100%;
 }
 
 .headline{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  /* justify-content: center; */
   width: 40%;
-  margin: 32px 0px;
-  padding: 4rem;
-  line-height: 2rem;
+  /* margin: 32px 0px; */
+  /* padding: 4rem; */
+  /* line-height: 2rem; */
 }
 
-
-
+.headline-text{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
 
 #button{
 
@@ -134,10 +146,9 @@ nav li {
 }
 
 /* --------------------Practicising -------------------------  */
-
 .practice{
   background-color: green;
-  height:24rem;
+  height:36rem;
 
 }
 
