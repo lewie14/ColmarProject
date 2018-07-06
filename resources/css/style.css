@@ -95,11 +95,12 @@ nav li {
 }
 
 /* --------------------Banner -------------------------  */
-
+/* The container for the whole banner section */
 .part1 {
   padding-top: 32px;
 }
 
+/* container for image and headline */
 .banner{
   display:flex;
   background-color: lightgrey;
@@ -111,15 +112,19 @@ nav li {
 
 }
 
+/* container for image */
 .books{
   width: 60%;
   margin: 32px 24px;
   /* align-items: left; */
 }
+
+/* image properies */
 .books img{
   max-width:100%;
 }
 
+/* container for headline text and button */
 .headline{
   /* flex-direction: column; */
   /* justify-content: center; */
@@ -129,12 +134,14 @@ nav li {
   /* line-height: 2rem; */
 }
 
+/* container for headline text */
 .headline-text{
   padding: 16px;
   display: flex;
   flex-direction: column;
 }
 
+/* button properties */
 #button{
 
   max-width: 55%;
@@ -146,11 +153,61 @@ nav li {
 }
 
 /* --------------------Practicising -------------------------  */
+/* The container for the whole practicing section */
+.part2 {
+  padding-top: 32px;
+}
+
+/* container for images and events */
 .practice{
-  background-color: green;
-  height:36rem;
+  display:flex;
+  background-color: white;
 
 }
+
+/* container for image and its text */
+.main{
+  width: 60%;
+  padding: 0px 32px 24px 24px;
+  align-items: left;
+
+}
+
+/* image properies */
+.main img{
+  max-width:100%;
+}
+
+/* container for text under image  */
+.practice-text{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.practice-text p, h3{
+  padding: 8px 0px;
+}
+
+/* container for the three events */
+.events{
+  width: 40%;
+}
+
+/* container for individual event */
+.event{
+  display: flex;
+  padding: 16px;
+  border: 1px solid rgba(204, 204, 204, 0.75);
+}
+
+/* container for event text  */
+.event-text{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 /* --------------------Learning -------------------------  */
