@@ -35,6 +35,7 @@ header{
   background-size: cover; */
 }
 
+/* Menu section */
 nav {
   align-items: center;
   justify-content: space-between;
@@ -317,9 +318,35 @@ nav li {
 }
 
 /* --------------------Footer -------------------------  */
-
+/* footer container */
 .footer{
-  background-color: pink;
-  height:6rem;
+  font-size: 14px;
+  padding: 16px 24px;
+  border-top: 1px solid rgba(204, 204, 204, 0.8);
+  /* align-items: center; */
+  justify-content: space-between;
+  /* padding: 1rem 0; */
+  /* background-color: white; */
+  /* color: black; */
+  /* position: relative; */
+  /* z-index: 1; */
+  /* margin: 0 auto; */
+  /* height: 4rem; */
+}
 
+/* Makes a flexbox for copyright text */
+.copyright-info{
+  display: flex;
+  align-items: center;
+}
+
+/* right margin for terms and privacy */
+.terms ul {
+  margin-right: 1.5rem;
+}
+
+/* Make the terms and privacy display in a line */
+.terms li {
+  display: inline;
+  padding: 0 0.5rem;
 }
