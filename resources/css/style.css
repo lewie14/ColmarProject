@@ -260,11 +260,60 @@ nav li {
 
 
 /* --------------------Exhibits -------------------------  */
+/* container for whole exhibits section */
+.part4{
+  padding-top: 32px;
+  background-color: white;
+  align-items: center;
+}
 
+/* Text title proerties */
+.part4 h1{
+    text-align:center;
+}
+
+/* container for the video and links*/
+.exhibits{
+  display:flex;
+}
+
+/* container for the video and its text */
 .exhibit{
-  background-color: grey;
-  height:24rem;
+  width: 60%;
+  padding: 0px 32px 24px 24px;
+  align-items: left;
 
+}
+
+/* container for video text */
+.video-text{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* container for all links images and text */
+.links{
+  width: 40%;
+}
+
+/* container for individual link */
+.link{
+  display: flex;
+  padding: 16px;
+
+}
+
+/*  */
+.link-text{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-text p{
+  padding: 8px 0px;
+  font-weight: normal;
 }
 
 /* --------------------Footer -------------------------  */
