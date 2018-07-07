@@ -229,7 +229,7 @@ nav li {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0px 56px;
+  padding: 32px 72px;
 
 }
 
@@ -282,7 +282,7 @@ nav li {
 .exhibit{
   width: 60%;
   padding: 0px 32px 24px 24px;
-  align-items: left;
+  /* align-items: left; */
 
 }
 
@@ -301,7 +301,7 @@ nav li {
 /* container for individual link */
 .link{
   display: flex;
-  padding: 16px;
+  /* padding: 16px; */
 
 }
 
