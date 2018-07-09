@@ -450,7 +450,7 @@ nav li {
 
 /* Container for events */
 .events {
-  
+
   width: auto;
 }
 
@@ -472,9 +472,45 @@ nav li {
   width: auto;
 }
 
+/* Tyrn off big pics */
 .computer{
   display: none;
 }
+/* display small pics */
 .smartphone {
   display: block;
+}
+
+
+/* .....................Learning.................................. */
+
+.part3 {
+  background-color: white;
+  padding: 0px 8px 16px 8px;
+}
+
+.learn {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.course {
+  width: auto;
+  padding: 0px;
+  margin: 4px 0px;
+}
+
+.course-text p, h3{
+  display: none;
+}
+
+
+.course img{
+  display: none;
+}
+
+.course-text {
+  padding: 16px 0px 24px 16px;
+  background-color: lightgrey;
 }
