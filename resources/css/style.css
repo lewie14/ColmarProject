@@ -1,24 +1,69 @@
+/* Message to Assessor
+I know there are many issues with this website but it was the best I could do with
+my time schedule.
+I didnt realise there was some help in day 2 and day 3 about icons so I did it
+the traditional way.
+I blanked out the reset.css as it caused me all sorts of viewing issues
+But I did have fun doing it. */
+
+/* .............Typeface.......................... */
+
+/* latin */
+@font-face {
+  font-family: 'Khula';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Khula Regular'), local('Khula-Regular'), url(https://fonts.gstatic.com/s/khula/v3/OpNCnoEOns3V7GcOrg4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Khula';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Khula Bold'), local('Khula-Bold'), url(https://fonts.gstatic.com/s/khula/v3/OpNPnoEOns3V7G-1ixvTpi8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
 /* -------------Universal Styles------------------ */
 
 /* Set the base fontsize */
 html {
-  font-size: 16px;
-  font-family: "Helvetica", sans-serif;
-  background-color: white;
+  font-size: 18px;
+  /* font-family: "Helvetica", sans-serif;
+  background-color: white; */
+}
+
+h1 {
+  font-family: "Khula";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h2, h3 p, span, a {
+  font-family: "Khula";
+  text-decoration: none
 }
 
 
-
-h1,h2 {
+h2 {
   font-weight: bold;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h3, p {
+  font-weight: 300;
 }
 
 /* Set basic container parameters */
 .container {
   display: flex;
-  /* align-items: center;
-  max-width: 100%;
-  margin: 0 auto; */
 }
 
 /* Sets a display element to be a flexbox */
@@ -30,9 +75,6 @@ h1,h2 {
 
 header{
   height:4rem;
-  /* background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
 }
 
 /* Menu section */
@@ -62,12 +104,6 @@ nav img {
   /* margin-right: 1rem; */
 }
 
-/* .menu{
-  display:flex;
-  align-items: center;
-} */
-
-
 /* Right margin of the menu list */
 nav ul {
   margin-right: 1.5rem;
@@ -75,14 +111,12 @@ nav ul {
 
 /* Make the menu items display in a line */
 nav li {
+  /* font-size: 1.5rem; */
+  font-family: "Khula";
   display: inline;
   padding: 0 0.5rem;
+  color: black;
 }
-
-/* makes all flex in the header start from the right */
-/* header .flex {
-  justify-content: flex-end;
-} */
 
 /* Set colmar to bold */
 #colmar{
@@ -111,11 +145,6 @@ nav li {
   display:flex;
   background-color: lightgrey;
   align-items: center;
-
-
-  /* align-items: center; */
-  /* height:24rem; */
-
 }
 
 /* container for image */
@@ -132,12 +161,7 @@ nav li {
 
 /* container for headline text and button */
 .headline{
-  /* flex-direction: column; */
-  /* justify-content: center; */
   width: 40%;
-  /* margin: 32px 0px; */
-  /* padding: 4rem; */
-  /* line-height: 2rem; */
 }
 
 /* container for headline text */
@@ -155,6 +179,7 @@ nav li {
 #button{
 
   /* max-width: 55%; */
+  font-size: 1.4rem;
   background-color: #333333;
   text-align: center;
   color: white;
@@ -165,6 +190,7 @@ nav li {
 /* --------------------Practicising -------------------------  */
 /* The container for the whole practicing section */
 .part2 {
+  display:flex;
   padding-top: 32px;
 }
 
@@ -176,9 +202,9 @@ nav li {
 }
 
 /* container for image and its text */
-.main{
+.main {
   width: 60%;
-  padding: 0px 32px 24px 24px;
+  margin: 32px 24px;
   align-items: left;
 
 }
@@ -226,7 +252,8 @@ nav li {
 
 /* The container for the whole learning section */
 .part3 {
-  padding-top: 32px;
+
+  padding: 8px 0px;
   background-color: lightgrey;
   align-items: center;
 }
@@ -246,9 +273,9 @@ nav li {
 
 /* container for individual course */
 .course{
-  background-color: rgba(255, 255, 255, 1);
+  background-color: white;
   width: 30%;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
   margin: 16px;
 }
 
@@ -259,12 +286,11 @@ nav li {
 
 /* container for course text  */
 .course-text{
-  padding: 16px;
+  padding-left:16px;
   display: flex;
   flex-direction: column;
 }
 
-/* course text properties */
 .course-text p, h3{
   padding: 8px 0px;
   font-weight: normal;
@@ -274,6 +300,7 @@ nav li {
 /* --------------------Exhibits -------------------------  */
 /* container for whole exhibits section */
 .part4{
+
   padding-top: 32px;
   background-color: white;
   align-items: center;
@@ -312,8 +339,6 @@ nav li {
 /* container for individual link */
 .link{
   display: flex;
-  /* padding: 16px; */
-
 }
 
 /*  */
@@ -334,15 +359,7 @@ nav li {
   font-size: 14px;
   padding: 16px 24px;
   border-top: 1px solid rgba(204, 204, 204, 0.8);
-  /* align-items: center; */
   justify-content: space-between;
-  /* padding: 1rem 0; */
-  /* background-color: white; */
-  /* color: black; */
-  /* position: relative; */
-  /* z-index: 1; */
-  /* margin: 0 auto; */
-  /* height: 4rem; */
 }
 
 /* Makes a flexbox for copyright text */
@@ -394,10 +411,6 @@ nav li {
 
 /* ..................Banner.................... */
 
-/* .books {
-  display: none;
-} */
-
 .part1 {
   padding: 0px 8px 16px 8px;
 }
@@ -420,10 +433,6 @@ nav li {
   width: auto;
 }
 
-/* .headline-text{
-  padding: 16px 0px 24px 16px;
-} */
-
 /* Change color of button */
 #button {
   background-color: grey;
@@ -443,10 +452,6 @@ nav li {
 
 }
 
-/* .main {
-  width: 100%;
-  margin:auto;
-} */
 
 /* Container for events */
 .events {
@@ -458,7 +463,6 @@ nav li {
 .event {
   flex-direction: column;
   padding: 32px 16px;
-
 }
 
 /* event text fills event */
@@ -483,29 +487,32 @@ nav li {
 
 
 /* .....................Learning.................................. */
-
+/* Container for Learning  */
 .part3 {
   background-color: white;
   padding: 0px 8px 16px 8px;
 }
 
+/* Container for courses */
 .learn {
   display: flex;
   flex-direction: column;
   padding: 0px;
 }
 
+/* Container for one course */
 .course {
   width: auto;
   padding: 0px;
   margin: 4px 0px;
 }
 
+/* Hides course text */
 .course-text p, h3{
   display: none;
 }
 
-
+/* hides course images */
 .course img{
   display: none;
 }
@@ -516,33 +523,38 @@ nav li {
 }
 
 /* .....................Exhibits.................................. */
-
+/* Container for exhibits  */
 .part4 {
   background-color: white;
   padding: 0px 8px 16px 8px;
 }
 
+/* Container for video and links */
 .exhibits {
   display: flex;
   flex-direction: column;
   padding: 0px;
 }
 
+/* Container for video and its text */
 .exhibit{
   width: 100%;
   margin:auto;
 }
 
+/* Hides video text */
 .video-text {
   display: none;
 }
 
+/* Hides links */
 .links {
   display: none;
 }
 
 /* .....................Footer.................................. */
 
+/* hides the terms and privacy */
 .terms {
   display: none;
 }
