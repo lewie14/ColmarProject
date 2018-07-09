@@ -147,10 +147,14 @@ nav li {
   flex-direction: column;
 }
 
+.headline-text p, h3{
+  padding: 8px 0px;
+}
+
 /* button properties */
 #button{
 
-  max-width: 55%;
+  /* max-width: 55%; */
   background-color: #333333;
   text-align: center;
   color: white;
@@ -384,5 +388,45 @@ nav li {
 /* Overides nav properties for img */
 .mobile-menu img{
   margin: 0 auto;
-
 }
+
+/* ..................Banner.................... */
+
+/* .books {
+  display: none;
+} */
+
+.part1 {
+  padding: 0px 8px 16px 8px;
+}
+
+/* Make container for image 100%  */
+.books {
+  width: 100%;
+  margin:auto;
+}
+
+/* Make banner display as a column */
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+/* container for headline text and button */
+.headline {
+  width: auto;
+}
+
+/* .headline-text{
+  padding: 16px 0px 24px 16px;
+} */
+
+
+#button{
+  background-color: grey;
+  padding: 16px 0px 24px 16px;
+  /* width: 90%; */
+}
+
+/* ......................Practicising................. */
