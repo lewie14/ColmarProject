@@ -218,7 +218,9 @@ nav li {
   flex-direction: column;
 }
 
-
+.smartphone {
+  display: none;
+}
 
 /* --------------------Learning -------------------------  */
 
@@ -422,11 +424,57 @@ nav li {
   padding: 16px 0px 24px 16px;
 } */
 
-
-#button{
+/* Change color of button */
+#button {
   background-color: grey;
   padding: 16px 0px 24px 16px;
   /* width: 90%; */
 }
 
 /* ......................Practicising................. */
+
+.part2 {
+  padding: 0px 8px 16px 8px;
+}
+
+/* Hide man reading book and text */
+.practice .main {
+  display: none;
+
+}
+
+/* .main {
+  width: 100%;
+  margin:auto;
+} */
+
+/* Container for events */
+.events {
+  
+  width: auto;
+}
+
+/* Make each event into a column */
+.event {
+  flex-direction: column;
+  padding: 32px 16px;
+
+}
+
+/* event text fills event */
+.event-text {
+  width: 100%;
+  padding: 16px 0px 24px 16px;
+}
+
+/* container for image  */
+.imageframe{
+  width: auto;
+}
+
+.computer{
+  display: none;
+}
+.smartphone {
+  display: block;
+}
